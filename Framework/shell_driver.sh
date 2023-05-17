@@ -22,7 +22,7 @@ then
         echo "building framework"
         echo ""
         cmake -S . -B out/build/
-        cd Framework/out/build/
+        cd out/build/
         make 
         echo ""
         echo "finished framework build"  
